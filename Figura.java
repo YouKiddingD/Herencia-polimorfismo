@@ -14,5 +14,6 @@ public class Figura
      area=0;
  }
  
- 
+ public void getArea()
+ {} 
 }

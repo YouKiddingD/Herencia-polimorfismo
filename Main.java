@@ -18,6 +18,17 @@ public static void main(String []args)
     Circulo c1= new Circulo(6);
     c1.getArea();
     System.out.println(c1.area);
-    
+    Figura[] figuras= new Figura[3];
+    figuras[0]=t1;
+    figuras[1]=r1;
+    figuras[2]=c1;
+    for(int i=0;i<figuras.length;i++)
+    {
+    figuras[i].getArea();
+    }
+    for(int i=0;i<figuras.length;i++)
+    {
+    System.out.println(figuras[i].area);
+    }
 }
 }
