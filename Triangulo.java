@@ -18,4 +18,8 @@ public class Triangulo extends Figura
   {
     area=base*altura/2;  
   }
+   public String darInfo()
+ {
+     return "Triangulo "+super.darInfo();
+ }
 }

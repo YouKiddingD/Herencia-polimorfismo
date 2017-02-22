@@ -16,4 +16,8 @@ public class Circulo extends Figura
   {
     area=(float)3.1416*(radio*radio); 
   }
+     public String darInfo()
+ {
+     return "Circulo "+super.darInfo();
+ }
 }

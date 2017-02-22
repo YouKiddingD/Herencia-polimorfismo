@@ -16,4 +16,9 @@ public class Figura
  
  public void getArea()
  {} 
+ 
+ public String darInfo()
+ {
+     return ""+area;
+ }
 }

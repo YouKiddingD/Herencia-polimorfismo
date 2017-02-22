@@ -14,8 +14,12 @@ public class Rectangulo extends Figura
     base=b;
     altura=a;
   }
-  public void getArea()
+    public void getArea()
   {
-    area=base*altura;  
+    area=base*altura; 
   }
+   public String darInfo()
+ {
+     return "Rectangulo "+super.darInfo();
+ }
 }
