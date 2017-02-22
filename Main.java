@@ -30,5 +30,13 @@ public static void main(String []args)
     {
     System.out.println(figuras[i].area);
     }
+    for (Figura f: figuras)
+    {
+    f.getArea();
+    }
+      for (Figura f: figuras)
+    {
+    System.out.println(f.area);
+    }
 }
 }
