@@ -22,4 +22,9 @@ public class Rectangulo extends Figura
  {
      return "Rectangulo "+super.darInfo();
  }
+  
+ public String toString()
+ {
+     return "Rectangulo con area= " + super.toString();
+ }
 }

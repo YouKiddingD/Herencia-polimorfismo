@@ -20,4 +20,9 @@ public class Circulo extends Figura
  {
      return "Circulo "+super.darInfo();
  }
+ 
+ public String toString()
+ {
+     return "Circulo con area= " + super.toString();
+ }
 }

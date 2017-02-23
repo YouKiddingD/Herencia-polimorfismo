@@ -21,4 +21,9 @@ public class Figura
  {
      return ""+area;
  }
+ 
+ public String toString()
+ {
+    return ""+area;
+ }
 }

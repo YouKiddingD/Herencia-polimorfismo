@@ -22,4 +22,9 @@ public class Triangulo extends Figura
  {
      return "Triangulo "+super.darInfo();
  }
+  
+ public String toString()
+ {
+     return "Triangulo con area= " + super.toString();
+ }
 }

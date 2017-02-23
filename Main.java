@@ -42,5 +42,9 @@ public static void main(String []args)
     {
     System.out.println(f.darInfo());
     }
+        for (Figura f: figuras)
+    {
+    System.out.println(f);
+    }
 }
 }
