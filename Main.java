@@ -46,5 +46,7 @@ public static void main(String []args)
     {
     System.out.println(f);
     }
+    Ventana vent = new Ventana(800,600);
+    vent.setVisible(true);
 }
 }
