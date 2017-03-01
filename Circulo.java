@@ -1,10 +1,7 @@
 
-/**
- * Write a description of class Circulo here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+
 public class Circulo extends Figura
 {
   private float radio;
@@ -24,5 +21,11 @@ public class Circulo extends Figura
  public String toString()
  {
      return "Circulo con area= " + super.toString();
+ }
+ 
+ @Override
+ public void dibuja(Graphics g)
+ {
+ 
  }
 }

@@ -1,10 +1,6 @@
+import java.awt.Graphics;
+import java.awt.Graphics2D;
 
-/**
- * Write a description of class Rectangulo here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class Rectangulo extends Figura
 {
   private float base;
@@ -26,5 +22,11 @@ public class Rectangulo extends Figura
  public String toString()
  {
      return "Rectangulo con area= " + super.toString();
+ }
+ 
+  @Override
+ public void dibuja(Graphics g)
+ {
+     
  }
 }
